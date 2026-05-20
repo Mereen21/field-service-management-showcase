@@ -41,4 +41,4 @@ The administrative backbone for personnel management and high-level tracking.
 * **Logistics Monitoring:** Tracks company vehicle utilization with dynamic constraint warnings (e.g., mapping to local traffic and number coding rules).
 
 ##  Architecture & Data Flow
-![Architecture Diagram](./assets/Layered-Architecture-of-FSM.png)
+![Architecture Diagram](./assets/Layered Architecture of FSM.png)
