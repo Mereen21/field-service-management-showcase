@@ -16,13 +16,13 @@ A comprehensive, full-stack enterprise platform engineered to orchestrate onsite
 
 ## System Architecture by Module
 
-### 1. Requestor Module (Sales, Finance, ITSM, Marketing)
+### 1. Requestor Module 
 The primary entry point for customer-facing departments to orchestrate resources.
 * **Dynamic Smart Forms:** Adapts the UI and required fields in real-time based on the user's department and request type (e.g., dynamically toggling "SOF Number" vs. "Project Name").
 * **Real-Time Conflict Prevention:** Actively polls the database during input, instantly disabling booked timeslots, vehicles, and personnel to prevent double-booking prior to submission.
 * **Lifecycle Management:** A dedicated dashboard for users to track, edit, cancel, or reschedule tickets, with automated alerting for changes requiring re-approval.
 
-### 2. Team Lead Module (Command Center)
+### 2. Team Lead Module 
 A centralized hub for department heads to allocate resources and oversee daily operations.
 * **Interactive Deployment Dashboards:** Features rich data visualizations, including a monthly Heatmap, Request Calendar, and priority-based slide-out drawers.
 * **Advanced Approval Workflow:** Manages granular approvals (e.g., separate Personnel and Vehicle sign-offs) and handles complex "Partially Approved" database states.
@@ -43,7 +43,7 @@ The administrative backbone for personnel management and high-level tracking.
 ##  Architecture & Data Flow
 ![Architecture Diagram](./assets/layered-architecture-of-fsm.png)
 
-## 🖥️ System Interfaces
+## System Interfaces
 
 **Team Lead Command Center: Approval Calendar**
 ![TL Approval Calendar](./assets/tl-approval-calendar.png)
@@ -59,10 +59,10 @@ The administrative backbone for personnel management and high-level tracking.
 
 ***
 
-## 🚀 Key Takeaways & Business Impact
+## Key Takeaways & Business Impact
 Building this system required balancing strict enterprise logistical rules with a highly fluid user experience. Navigating row-level database locking and real-time React state management was a massive technical hurdle, but it resulted in a stable, zero-debt deployment that successfully eliminated scheduling bottlenecks for the organization.
 
-## 📬 Let's Connect
+## Let's Connect
 Are you a recruiter or engineering manager looking for a full-stack developer who understands both clean frontend architecture and complex backend business logic? I would love to chat!
 
 * **LinkedIn:** [Connect with me here](https://linkedin.com/in/rainier-merencillo)
