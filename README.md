@@ -1,20 +1,20 @@
 # field-service-management-showcase
 A full-stack, role-based Field Service Management architecture showcase featuring real-time conflict prevention, dynamic UI rendering, and complex resource allocation workflows.
 
-# 🏢 Enterprise Field Service Management System (Architecture Showcase)
+# Enterprise Field Service Management System (Architecture Showcase)
 
 > **Disclaimer:** This repository serves as a technical case study and architectural showcase. Due to strict NDAs and client confidentiality, **no proprietary source code, database credentials, or sensitive client data are included.**
 
-## 📖 Project Overview
+## Project Overview
 A comprehensive, full-stack enterprise platform engineered to orchestrate onsite projects, hardware deliveries, and technical support. The system serves as a centralized command center, bridging operations across Sales, Finance, ITSM, HR, and Field Engineers through strict role-based access controls and real-time conflict prevention.
 
-## 💻 Tech Stack & Infrastructure
+## Tech Stack & Infrastructure
 * **Frontend:** React, Material-UI (MUI), JavaScript
 * **Backend:** Laravel, PHP, RESTful APIs
 * **Database:** MySQL (Advanced row-level locking)
 * **Infrastructure:** Corporate VMware LAN
 
-## 🧩 System Architecture by Module
+## System Architecture by Module
 
 ### 1. Requestor Module (Sales, Finance, ITSM, Marketing)
 The primary entry point for customer-facing departments to orchestrate resources.
@@ -40,5 +40,5 @@ The administrative backbone for personnel management and high-level tracking.
 * **Global View-Only Tracking:** Allows secure oversight of the deployment calendar across all departments without risk of accidental modification.
 * **Logistics Monitoring:** Tracks company vehicle utilization with dynamic constraint warnings (e.g., mapping to local traffic and number coding rules).
 
-## 🏗️ Architecture & Data Flow
+##  Architecture & Data Flow
 *(Note: An architecture diagram representing the React -> API -> Laravel -> MySQL data flow will be placed here)*
