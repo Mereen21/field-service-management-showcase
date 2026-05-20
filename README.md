@@ -42,3 +42,29 @@ The administrative backbone for personnel management and high-level tracking.
 
 ##  Architecture & Data Flow
 ![Architecture Diagram](./assets/layered-architecture-of-fsm.png)
+
+## 🖥️ System Interfaces
+
+**Team Lead Command Center: Approval Calendar**
+![TL Approval Calendar](./assets/tl-approval-calendar.png)
+> Centralized dashboard for department heads to manage granular approvals and resolve scheduling conflicts.
+
+**Dynamic Smart Request Form**
+![Dynamic Request Form](./assets/dynamic-request-form.png)
+> Adaptive UI that toggles required fields and actively polls the database to prevent double-booking before submission.
+
+**Field Personnel Timesheet Timeline**
+![Field Personnel Timesheet](./assets/personnel-timesheet-timeline.png)
+> Visual daily timeline featuring the smart time-blocking engine and resilient local-storage auto-save system.
+
+***
+
+## 🚀 Key Takeaways & Business Impact
+Building this system required balancing strict enterprise logistical rules with a highly fluid user experience. Navigating row-level database locking and real-time React state management was a massive technical hurdle, but it resulted in a stable, zero-debt deployment that successfully eliminated scheduling bottlenecks for the organization.
+
+## 📬 Let's Connect
+Are you a recruiter or engineering manager looking for a full-stack developer who understands both clean frontend architecture and complex backend business logic? I would love to chat!
+
+* **LinkedIn:** [Connect with me here](https://linkedin.com/in/rainier-merencillo)
+* **Email:** [rainier.merencillo@gmail.com]
+* **GitHub Profile:** [Mereen21](https://github.com/Mereen21)
